@@ -1,4 +1,5 @@
 var droid_console = new (function () {
+	var self = this;
 
 	var divDisplay = document.getElementById("divDisplay");
 
@@ -14,19 +15,19 @@ var droid_console = new (function () {
 	};
 
 
-	this.breakLine = function () {
+	self.breakLine = function () {
 		var elmnt = document.createElement("br");
 
 		divDisplay.appendChild(elmnt);
 	}
 
-	this.print = function (str) {
+	self.print = function (str) {
 		return printText(str);
 	};
 
-	this.println = function (str) {
+	self.println = function (str) {
 		var text = printText(str);
-		this.breakLine();
+		self.breakLine();
 
 		return text;
 	};
