@@ -1,4 +1,4 @@
-function ArrayMulti() {
+function ArrayMulti(dimentions) {
 	var arrayMain = [];
 
 
@@ -12,7 +12,7 @@ function ArrayMulti() {
 		}
 
 		if (!arrayMain[x][y][z]) {
-			arrayMain[x][y][z] = true;
+			arrayMain[x][y][z] = false;
 		}
 	}
 
