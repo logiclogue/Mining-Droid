@@ -3,4 +3,5 @@ body {
 	color: white;
 	font-family: "Courier New", Courier, Monospace;
 	font-weight: bold;
+	word-wrap: break-word;
 }
