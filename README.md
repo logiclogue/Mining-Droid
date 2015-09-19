@@ -1,7 +1,7 @@
 #Mining Droid
 Console based game where you program a mining droid to explore an infinite world.
 
-##How to play
+###How to play
 - Clone repository
 - Open **`index.html`** in your favourite browser
 - Edit **`main.js`** located in `js/`
@@ -12,7 +12,7 @@ Console based game where you program a mining droid to explore an infinite world
 - Move forward: `droid.move()`
 - Detect id of block facing: `droid.detect()`
 
-##Print to console window
+###Print to console window
 `droid_console.println(<string>)`
 - `.println()`
 - `.print()`
