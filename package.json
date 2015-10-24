@@ -1,0 +1,21 @@
+{
+  "name": "Mining-Droid",
+  "version": "0.0.0",
+  "description": "Console based game in an infinite world",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logiclogue/Mining-Droid.git"
+  },
+  "author": "Jordan Lord",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/logiclogue/Mining-Droid/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  }
+}
