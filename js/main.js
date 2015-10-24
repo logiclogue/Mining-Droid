@@ -1,7 +1,7 @@
 // Copyright Jordan Lord 2015
 
 
-(function () {
+window.addEventListener("load", function () {
 	// example
 	var droid = new MiningDroid("Jordan");
 
@@ -12,4 +12,4 @@
 	droid.turn.right();
 	droid.turn.right();
 	droid.detect();
-}());
+});

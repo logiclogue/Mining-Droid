@@ -67,7 +67,7 @@ var droid_console = new (function () {
 // Copyright Jordan Lord 2015
 
 
-(function () {
+window.addEventListener("load", function () {
 	// example
 	var droid = new MiningDroid("Jordan");
 
@@ -78,7 +78,7 @@ var droid_console = new (function () {
 	droid.turn.right();
 	droid.turn.right();
 	droid.detect();
-}());
+});
 /*
 CryptoJS v3.1.2
 code.google.com/p/crypto-js
