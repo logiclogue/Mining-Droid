@@ -16,6 +16,8 @@
     "url": "https://github.com/logiclogue/Mining-Droid/issues"
   },
   "devDependencies": {
-    "gulp": "~3.9.0"
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-jshint": "~1.11.2"
   }
 }
