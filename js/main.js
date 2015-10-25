@@ -7,9 +7,10 @@ window.addEventListener("load", function () {
 
 	droid.turn.right();
 	droid.detect();
-	droid.move();
-	droid.move();
-	droid.turn.right();
-	droid.turn.right();
+	droid
+		.move()
+		.move()
+		.turn.right()
+		.turn.right();
 	droid.detect();
 });

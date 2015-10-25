@@ -48,11 +48,15 @@ var MiningDroid = function (name) {
 	function turnRight() {
 		self.direction = (self.direction > 2 ? 0 : self.direction + 1);
 		printConsole("Turning right, facing " + directionStr());
+
+		return self;
 	}
 
 	function turnLeft() {
 		self.direction = (self.direction < 1 ? 3 : self.direction - 1);
 		printConsole("Turning left, facing " + directionStr());
+
+		return self;
 	}
 
 
@@ -108,6 +112,8 @@ var MiningDroid = function (name) {
 		}
 
 		printConsole("Moved " + str);
+
+		return self;
 	};
 
 
